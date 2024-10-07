@@ -6,4 +6,8 @@
     <string name="year">Year:</string>
     <string name="genre">Genre:</string>
     <string name="isbn">ISBN</string>
+    <string name="idioma">Idioma: %1$s</string>
+    <string name="editorial">Editorial: %1$s</string>
+    <string name="publicacion">Fecha de publicación: %1$s</string>
+    <string name="NA">N/A</string>
 </resources>

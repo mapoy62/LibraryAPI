@@ -19,9 +19,6 @@ data class BookDTO (
     @SerializedName("genre")
     var genre: String? = null,
 
-    @SerializedName("isbn")
-    var isbn: String? = null,
-
     @SerializedName("imageUrl")
     var image: String? = null
 

@@ -20,6 +20,15 @@ data class BookDetailDTO(
     @SerializedName("isbn")
     var isbn: String? = null,
 
+    @SerializedName("language")
+    var language: String? = null,
+
+    @SerializedName("publisher")
+    var publisher: String? = null,
+
+    @SerializedName("publicationDate")
+    var publication: String? = null,
+
     @SerializedName("imageUrl")
     var image: String? = null,
 

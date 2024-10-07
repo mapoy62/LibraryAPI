@@ -13,7 +13,6 @@ class BookViewHolder(
         binding.tvAuthor.text = book.author
         binding.tvYear.text = book.year.toString()
         binding.tvGenre.text = book.genre
-        binding.tvIsbn.text = book.isbn
 
         Glide.with(binding.root.context)
             .load(book.image)

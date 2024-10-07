@@ -46,6 +46,45 @@
                         android:textSize="25sp"
                         tools:text="Title" />
 
+                    <TextView
+                        android:id="@+id/tvLanguage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alexandria_light"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
+                        android:textColor="@color/fontColor"
+                        android:textSize="18sp"
+                        tools:text="Language: Alemán" />
+
+                    <TextView
+                        android:id="@+id/tvPublisher"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alexandria_light"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="5dp"
+                        android:textColor="@color/fontColor"
+                        android:textSize="18sp"
+                        tools:text="Publisher: Kurt Wolff Verlag" />
+
+                    <TextView
+                        android:id="@+id/tvPublicationDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alexandria_light"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="15dp"
+                        android:textColor="@color/fontColor"
+                        android:textSize="18sp"
+                        tools:text="Publication Date: 1915-10-01" />
+
                     <com.makeramen.roundedimageview.RoundedImageView
                         android:id="@+id/ivImage"
                         android:layout_width="match_parent"
@@ -67,6 +106,8 @@
                         android:textColor="@color/fontColor"
                         android:textSize="20sp"
                         tools:text="Description" />
+
+
                 </LinearLayout>
             </ScrollView>
 

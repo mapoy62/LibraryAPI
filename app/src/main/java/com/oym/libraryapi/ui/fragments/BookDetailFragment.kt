@@ -65,7 +65,10 @@ class BookDetailFragment : Fragment() {
                             .into(ivImage)
 
                         tvTitle.text = response.body()?.title
-
+                        tvLanguage.text = getString(R.string.idioma, response.body()?.language ?: getString(R.string.NA))
+                        tvPublisher.text =
+                            getString(R.string.editorial, response.body()?.publisher ?: getString(R.string.NA))
+                        tvPublicationDate.text = getString(R.string.publicacion ,response.body()?.publication ?: getString(R.string.NA))
                         tvLongDesc.text = response.body()?.description
                     }
                 }
